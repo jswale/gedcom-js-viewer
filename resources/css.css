@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #2C2C29;
+	color: #2C2C29;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+#detail {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #EEEEEE;
+	font-size: 12px;
+	text-align: left;
+	box-shadow: 0 0 8px #FFFFFF;
+	position: relative;
+	padding: 5px;
+}
+
+ul {
+	margin: 0px;
+	padding-left: 20px;
+}
+
+#history,#log {
+	text-align: left;
+	color: #FEFEFE;
+	width: 400px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+#quick {
+	text-align: center;
+	color: #FEFEFE;
+	padding-bottom: 10px;
+	width: 400px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#download {
+	color: #FEFEFE;
+	width: 400px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+#download a {
+	color: #E0E0E0;
+}
+
+#log {
+	width: 600px;
+}
+
+#log .DEBUG {
+	color: green;
+}
+
+#log .INFO {
+	color: #FEFEFE;
+}
+
+#log .WARN {
+	color: yellow;
+}
+
+#log .ERROR {
+	color: red;
+}
+
+#history div.title,#log div.title {
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	margin-bottom: 5px;
+}
+
+#history a,#log a {
+	color: #E0E0E0;
+}
+
+.close {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	margin: 0px;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 0px 8px 0px 8px;
+	background-color: #2C2C29;
+	box-shadow: -2px 2px 3px #2C2C29;
+	color: #FEFEFE;
+}
+
+#detail th {
+	width: 150px;
+	text-align: right;
+	vertical-align: top;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+th,td {
+	padding-bottom: 5px;
+	vertical-align: top;
+}
+
+.childs {
+	margin-left: 20px;
+}
+
+#detail a {
+	color: #404040;
+}
+
+#detail li {
+	margin-bottom: 5px;
+}

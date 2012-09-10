@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Arbre généalogique</title>
+<!-- Libraries -->
+<script type="text/javascript" src="js/lib/prototype.js"></script>
+<script type="text/javascript" src="js/lib/raphael.js"></script>
+<script type="text/javascript" src="js/lib/raphael-plugins.js"></script>
+<!-- Gedcom -->
+<script type="text/javascript" src="js/gedcom/const.js"></script>
+<script type="text/javascript" src="js/gedcom/lang.js"></script>
+<script type="text/javascript" src="js/gedcom/ihm.js"></script>
+<script type="text/javascript" src="js/gedcom/toolbox.js"></script>
+<script type="text/javascript" src="js/gedcom/parser.js"></script>
+<script type="text/javascript" src="js/gedcom/plugins.js"></script>
+<script type="text/javascript" src="js/gedcom/viewer.js"></script>
+<script type="text/javascript" src="js/gedcom/entities.js"></script>
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" href="resources/css.css">
+</head>
+<body>
+		<div id="quick">
+				<select id="quickSelect" onchange="GedcomToolbox.show(this.options[this.selectedIndex].value);">
+				</select>
+		</div>
+		<div id="canvas"></div>
+		<div id="detail">
+				<div id="content"></div>
+				<div id="closeDetail" class="close" onclick="$(GedcomConst.id.DETAIL_ID).hide();"></div>
+		</div>
+		<div id="history">
+				<div class="title"></div>
+		</div>
+		<div id="log">
+				<div class="title"></div>
+		</div>
+		<div id="download">
+				<a href="gedcom.tar.gz">Télécharger GEDCOM Viewer v1.0</a>
+		</div>
+		<script>
+			GedcomIHM.init();
+
+			var parser = new GedcomParser();
+			var viewer = new GedcomViewer();
+
+			GedcomPlugins.checkRequired();
+			GedcomPlugins.sort();
+
+			parser.load(GedcomConst.path.GED_PATH);
+		</script>
+		<noscript>Javascript required</noscript>
+</body>
+</html>
+
