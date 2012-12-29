@@ -235,14 +235,14 @@ var GedcomLang = {
 			'index' : {
 				'close' : "Close",
 				'history' : "History",
-				'log' : "Informations",
+				'log' : "Log",
 				'quickSelect' : "Choose the person to display"
 			},
 			'personne' : {
 				'privacy' : "Private data",
 				'sexe' : {
-					'M' : 'M.',
-					'F' : 'Mme'
+					'M' : '',
+					'F' : ''
 				}
 			},
 			'viewer' : {
@@ -334,7 +334,7 @@ var GedcomLang = {
 					'title' : "Brothers and Sisters"
 				},
 				'nchi' : {
-					'title' : "Childs count"
+					'title' : "Children count"
 				},
 				'even' : {
 					'title' : "Events"
