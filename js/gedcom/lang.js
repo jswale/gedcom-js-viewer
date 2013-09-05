@@ -110,7 +110,8 @@ var GedcomLang = {
 				},
 				'familles' : {
 					'title' : "Coinjoint(e)(s)",
-					'marriage' : "Mariage"
+					'marriage' : "Mariage",
+					'children' : "enfants"
 				},
 				'familleParentChilds' : {
 					'title' : "Frères et soeurs"
@@ -328,6 +329,8 @@ var GedcomLang = {
 					'title' : "Wedding count"
 				},
 				'familles' : {
+					'title' : "Famillies",
+					'children' : "Child(ren)",
 					'marriage' : "Wedding"
 				},
 				'familleParentChilds' : {
@@ -440,6 +443,226 @@ var GedcomLang = {
 				},
 				'obje' : {
 					'title' : "Documents"
+				}
+			}
+		},
+		'de' : {
+			'common' : {
+				'yes' : "Ja",
+				'no' : "Nein",
+				'when' : "am",
+				'where' : "in"
+			},
+			'index' : {
+				'close' : "Schließen",
+				'history' : "Historie",
+				'log' : "Log",
+				'quickSelect' : "Wähle die Person um die die Ansicht zentriert werden soll"
+			},
+			'personne' : {
+				'privacy' : "Vertrauliche Daten",
+				'sexe' : {
+					'M' : 'M',
+					'F' : 'W'
+				}
+			},
+			'viewer' : {
+				'clicknavigate' : "Klicken, um auf diese Person zu zentrieren",
+				'dbclicknavigate' : "Klicken, um auf diese Person zu zentrieren",
+				'clickopen' : "Klicken, um die Details der Person anzuzeigen",
+				'multipleNameSeparator' : " oder "
+			},
+			'plugins' : {
+				'helper' : {
+					'source' : {
+						'title' : "Titel",
+						'titleAbbr' : "Kurztitel",
+						'author' : "Autor",
+						'dateAndPlace' : "Datum und ort der Publikation",
+						'text' : "Text",
+						'notes' : "Notizen"
+					},
+					'dateAndPlace' : {
+						'address' : "Adresse",
+						'age' : "Alter",
+						'source' : "Quelle",
+						'notes' : "Notizen",
+						'displayMap' : "[Auf der Karte anzeigen]",
+						'hideMap' : "[Karte verbergen]"
+					}
+				},
+				'privacy' : {
+					'title' : "Beschränkungen"
+				},
+				'sexe' : {
+					'title' : "Geschlecht",
+					'M' : "Männlich",
+					'F' : "Weiblich",
+					'U' : "Unbekannt"
+				},
+				'name' : {
+					'title' : "Name"
+				},
+				'prenom' : {
+					'title' : "Vorname"
+				},
+				'surn_prefix' : {
+					'title' : "Nachname (Prefix)"
+				},
+				'nomjf' : {
+					'title' : "Nachname"
+				},
+				'name_suffix' : {
+					'title' : "Nachname (Suffix)"
+				},
+				'nom' : {
+					'title' : "Rufname"
+				},
+				'nickname' : {
+					'title' : "Spitzname"
+				},
+				'birt' : {
+					'title' : "Geboren"
+				},
+				'deat' : {
+					'title' : "Gestorben"
+				},
+				'burri' : {
+					'title' : "Beerdigung"
+				},
+				'crem' : {
+					'title' : "Feuerbestattung"
+				},
+				'prob' : {
+					'title' : "Testamentsvollstreckung"
+				},
+				'will' : {
+					'title' : "Testament"
+				},
+				'familleParent' : {
+					'title' : "Eltern"
+				},
+				'adop' : {
+					'title' : "Adoption"
+				},
+				'nmr' : {
+					'title' : "Anzahl Ehen"
+				},
+				'familles' : {
+					'title' : "Familien",
+					'marriage' : "Hochzeit",
+					'children' : "Kind(er)"
+				},
+				'familleParentChilds' : {
+					'title' : "Geschwister"
+				},
+				'nchi' : {
+					'title' : "Anzahl Kinder"
+				},
+				'even' : {
+					'title' : "Ereignisse"
+				},
+				'dscr' : {
+					'title' : "Beschreibung"
+				},
+				'cens' : {
+					'title' : "Zensus"
+				},
+				'ssn' : {
+					'title' : "Sozialversicherungsnummer"
+				},
+				'resi' : {
+					'title' : "Wohnorte"
+				},
+				'prop' : {
+					'title' : "Gut und Habe"
+				},
+				'grad' : {
+					'title' : "Abschlüsse"
+				},
+				'educ' : {
+					'title' : "Höchster Abschluss"
+				},
+				'occu' : {
+					'title' : "Berufe"
+				},
+				'reti' : {
+					'title' : "Rente"
+				},
+				'nati' : {
+					'title' : "Nationalität"
+				},
+				'emig' : {
+					'title' : "Auswanderung"
+				},
+				'immi' : {
+					'title' : "Einwanderung"
+				},
+				'natu' : {
+					'title' : "Einbürgerung"
+				},
+				'reli' : {
+					'title' : "Religion"
+				},
+				'fcom' : {
+					'title' : "Erstkommunion"
+				},
+				'chr' : {
+					'title' : "Kindtaufe"
+				},
+				'chra' : {
+					'title' : "Erwachsenentaufe"
+				},
+				'bapt' : {
+					'title' : "Taufe"
+				},
+				'conf' : {
+					'title' : "Konfirmation"
+				},
+				'bless' : {
+					'title' : "Segen"
+				},
+				'ordi' : {
+					'title' : "Kommunion"
+				},
+				'ordn' : {
+					'title' : "Ordination"
+				},
+				'barm' : {
+					'title' : "Bar-Mizwa"
+				},
+				'bars' : {
+					'title' : "Bat-Mizwa"
+				},
+				'bapl' : {
+					'title' : "Baptism<br/>(Mormon church)"
+				},
+				'conl' : {
+					'title' : "Confirmation<br/>(Mormon church)"
+				},
+				'endl' : {
+					'title' : "Dotation<br/>(Mormon church)"
+				},
+				'slgc' : {
+					'title' : "Sealing of a child to his parents<br/>(Mormon church)"
+				},
+				'slgs' : {
+					'title' : "Sealing of a husband and wife<br/>(Mormon church)"
+				},
+				'cast' : {
+					'title' : "Kaste"
+				},
+				'titl' : {
+					'title' : "Adels- und Ehrentitel"
+				},
+				'sources' : {
+					'title' : "Quellen"
+				},
+				'notes' : {
+					'title' : "Notizen"
+				},
+				'obje' : {
+					'title' : "Dokumente"
 				}
 			}
 		}
