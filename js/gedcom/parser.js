@@ -14,6 +14,7 @@ GedcomParser.prototype = {
 		log.info();
 		log.info("Parser::Loading " + file);
 		new Ajax.Request(file, {
+					method: 'GET',
 					onSuccess : function(response) {
 						log.debug("loading ok");
 						this.parse(response.responseText);
