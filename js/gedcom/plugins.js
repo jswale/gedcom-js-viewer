@@ -459,7 +459,7 @@ new Plugin({
 										s.push("<b>" + GedcomLang.$.plugins.familles.marriage + " :</b> "
 												+ GedcomPlugins.displayDateAndPlace(f.marr) + "<br/>");
 									}
-									s.push("<b>" + f.childs.length + " enfants :</b>");
+									s.push("<b>" + f.childs.length + " " + GedcomLang.$.plugins.familles.children + " :</b>");
 									{
 										s.push("<div class='childs'>");
 										s.push(GedcomPlugins.displayData(f.childs, function(c) {

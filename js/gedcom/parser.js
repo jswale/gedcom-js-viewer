@@ -31,7 +31,7 @@ GedcomParser.prototype = {
 	},
 
 	parse : function(gedcom) {
-		var lines = gedcom.split(new RegExp("\r\n?", "g"));
+		var lines = gedcom.match(/[^\r\n]+/g);
 		log.debug(lines.length + " lines extracted");
 
 		// Create root node
