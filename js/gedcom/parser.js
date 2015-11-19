@@ -93,7 +93,7 @@ GedcomParser.prototype = {
 	},
 
 	extract : function(line, i) {
-		var result = line.match(/(\d) ([^ ]*) ?(.*)?/);
+		var result = line.trim().match(/(\d) ([^ ]*) ?(.*)?/);
 		// Ligne non conforme
 		if (null == result) {
 			return null;
